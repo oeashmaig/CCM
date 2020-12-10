@@ -71,9 +71,10 @@ q. 	If "ftdi_sio" is listed:
                                                       
     ii. 	sudo rmmod usbserial
                                                     
-r.  	If a dependency error
+r.  	If a dependency error occurs, try
 
-    i. Run this command :
+    i. Sudo apt --fix-broken install
+
 
 ## 3. 	Edit your rc.local file to run the bash script automatically at boot
 
