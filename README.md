@@ -19,13 +19,15 @@ d. 	Sudo apt install qt5-default
 
 e. 	Sudo apt-get install libasound2-dev
 
-f.  	Sudo python3 -m pip install simpleaudio
+f.  Sudo python3 -m pip install simpleaudio
 
 g. 	Sudo python2 -m pip install pyxid
 
 h. 	Sudo pip install pygame
 
-i.  	If a dependency error occurs in any of the above commands, run Sudo apt --fix-broken install
+i.  If a dependency error occurs in any of the above commands 
+
+    Sudo apt --fix-broken install
 
 ## 2. 	Download and install the required D2xx driver
 
@@ -71,9 +73,6 @@ q. 	If "ftdi_sio" is listed:
                                                       
     ii. 	sudo rmmod usbserial
                                                     
-r.  	If a dependency error occurs, try
-
-    i. Sudo apt --fix-broken install
 
 
 ## 3. 	Edit your rc.local file to run the bash script automatically at boot
