@@ -4,6 +4,7 @@ A Platform for Continuous Cognitive Monitoring (CCM) of Neurosurgical Patients D
 
 # Materials:
 
+ [Amazon wishlist](https://www.amazon.com/hz/wishlist/dl/invite/1rDBaaD?ref_=wl_share)
 
 # Expanded Instructions:
 
