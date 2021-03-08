@@ -7,10 +7,12 @@ import datetime
 import simpleaudio as sa
 
 fs = 44100  # 44100 samples per second
-seconds = 1  # Note duration of 1 second
+seconds = 1  # Generate a note duration of 1 second to be embedded in the video
+
 # Generate array with seconds*sample_rate steps, ranging between 0 and seconds
 t = np.linspace(0, seconds, seconds * fs, False)
-# Generate a 262 Hz sine wave
+
+# Generate a X Hz sine wave
 note1 = np.sin(262 * t * 2 * np.pi)
 note2 = np.sin(294 * t * 2 * np.pi)
 note3 = np.sin(330 * t * 2 * np.pi)
@@ -50,6 +52,7 @@ audio10 = audio10.astype(np.int16)
 audio11 = audio11.astype(np.int16)
 audio12 = audio12.astype(np.int16)
 
+#define arrow keys
 up_b = 0 , 1
 right_b = 1 , 0
 down_b = 0 , -1

@@ -28,7 +28,7 @@ left_b = -1 , 0
 ts = time.time()
 d = datetime.datetime.fromtimestamp(ts).strftime('%H:%M:%S-%d.%m.%Y')
 
-logging.basicConfig(filename=('log_{}.txt'.format(d)), level=logging.DEBUG, format='%(asctime)s: %(message)s')
+logging.basicConfig(filename=('log2_{}.txt'.format(d)), level=logging.DEBUG, format='%(asctime)s: %(message)s')
 pygame.init()
 j = pygame.joystick.Joystick(0)
 j.init()
@@ -86,6 +86,7 @@ try:
                         mask = 2 ** bm
                         dev.activate_line(bitmask=mask)
                 elif j.get_button(6):
+                    logging.info('L2 button was pressed')
                     dev.set_pulse_duration(23)
                     for bm in range(0, 1):
                         mask = 2 ** bm
