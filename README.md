@@ -83,3 +83,6 @@ a. 	Sudo nano /etc/rc.local
 b. 	Sudo $bash script location
 
 c. 	The bash script runs both python scripts simulatenously, make sure it is properly edited to point to the correct location of the python files
+ 
+ 
+ Note: After installation, be sure to verify button mappings in the generated controller log 
